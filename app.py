@@ -12,7 +12,7 @@ def name():
 
 @app.route('/name2', methods=['GET'])
 def name2():
-    return "Hello GANGDADHAR PALLA How R u"
+    return "Hello GANGDADHAR"
 
 
 if __name__ == "__main__":
