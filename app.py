@@ -14,11 +14,21 @@ def name():
 def about():
     print("Hii fgdf")
     print("Hii fgdf")
-    print("Hii fgdf")
+    print("Hii fgdf dfdsfdfdf")
     print("Hii fgfdg")
-    print("Hii hlloooo")
+    print("Hii hlloooo fgfdgfdgdfg")
+    print(" sdfkdk  kfjgk dfkjfdk gkdf gkdfj kgjdfkgjdfk")
     return "Hello GANGDADHAR Palla"
 
+@app.route('/login', methods=['GET'])
+def login():
+    print("Hii fgdf")
+    print("Hii fgdf")
+    print("Hii fgdf dfdsfdfdf")
+    print("Hii fgfdg")
+    print("Hii hlloooo fgfdgfdgdfg")
+    print(" sdfkdk  kfjgk dfkjfdk gkdf gkdfj kgjdfkgjdfk")
+    return "Hello GANGDADHAR Palla"
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000, host="0.0.0.0")
