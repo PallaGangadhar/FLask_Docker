@@ -8,7 +8,7 @@ def index():
 
 @app.route('/name', methods=['GET'])
 def name():
-    return "Hello GANGDADHAR"
+    return "Hello GANGDADHAR PALLA"
 
 
 if __name__ == "__main__":
