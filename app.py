@@ -12,11 +12,6 @@ def name():
 
 @app.route('/about', methods=['GET'])
 def about():
-    print("Hii fgdf")
-    print("Hii fgdf")
-    print("Hii fgdf")
-    print("Hii fgfdg")
-    print("Hii hlloooo")
     return "Hello GANGDADHAR Palla"
 
 
