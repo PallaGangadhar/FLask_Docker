@@ -10,8 +10,8 @@ def index():
 def name():
     return "Hello GANGDADHAR PALLA How R u"
 
-@app.route('/name2', methods=['GET'])
-def name2():
+@app.route('/about', methods=['GET'])
+def about():
     return "Hello GANGDADHAR"
 
 
