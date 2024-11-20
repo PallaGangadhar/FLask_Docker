@@ -10,9 +10,9 @@ def index():
 def name():
     return "Hello GANGDADHAR PALLA How R u"
 
-@app.route('/name2', methods=['GET'])
-def name2():
-    return "Hello GANGDADHAR PALLA How R u"
+@app.route('/about', methods=['GET'])
+def about():
+    return "Hello GANGDADHAR"
 
 
 if __name__ == "__main__":
